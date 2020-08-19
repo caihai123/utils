@@ -12,5 +12,13 @@
   "devDependencies": {
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caihai123/utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/caihai123/utils/issues"
+  },
+  "homepage": "https://github.com/caihai123/utils#readme"
 }
