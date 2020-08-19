@@ -91,15 +91,20 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = "./index.js");
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */
+/******/ ({
+
+/***/ "./index.js":
+/*!******************!*\
+  !*** ./index.js ***!
+  \******************/
+/*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-let capitalizeEveryWord = __webpack_require__(1);
-let isAbsoluteURL = __webpack_require__(2);
+let capitalizeEveryWord = __webpack_require__(/*! ./src/capitalizeEveryWord.js */ "./src/capitalizeEveryWord.js");
+let isAbsoluteURL = __webpack_require__(/*! ./src/isAbsoluteURL.js */ "./src/isAbsoluteURL.js");
 
 module.exports = {
   capitalizeEveryWord,
@@ -108,19 +113,31 @@ module.exports = {
 
 
 /***/ }),
-/* 1 */
+
+/***/ "./src/capitalizeEveryWord.js":
+/*!************************************!*\
+  !*** ./src/capitalizeEveryWord.js ***!
+  \************************************/
+/*! no static exports found */
 /***/ (function(module, exports) {
 
 module.exports = (str) => str.replace(/\b[a-z]/g, (char) => char.toUpperCase());
 
 
 /***/ }),
-/* 2 */
+
+/***/ "./src/isAbsoluteURL.js":
+/*!******************************!*\
+  !*** ./src/isAbsoluteURL.js ***!
+  \******************************/
+/*! no static exports found */
 /***/ (function(module, exports) {
 
 module.exports = (str) => /^[a-z][a-z0-9+.-]*:/.test(str);
 
 
 /***/ })
-/******/ ]);
+
+/******/ });
 });
+//# sourceMappingURL=caihai.utils.map
