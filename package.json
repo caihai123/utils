@@ -1,6 +1,6 @@
 {
   "name": "caihai-utils",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "我的第一个nom模块",
   "main": "dist/caihai-utils.js",
   "scripts": {
