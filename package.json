@@ -1,8 +1,8 @@
 {
-  "name": "ch-utils",
+  "name": "caihai-utils",
   "version": "1.0.0",
   "description": "一个可以预加载的瀑布流布局组件",
-  "main": "index.js",
+  "main": "dist/caihai-utils.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
